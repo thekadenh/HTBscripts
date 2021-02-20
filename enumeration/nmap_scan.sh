@@ -7,7 +7,7 @@ function long_scan {
     if [ $ports == "" ]; then
         echo "[ERR] No ports open..."
     else
-        nmap -sC -sV -p$ports $1 -o nmap_scan.txt
+        nmap -sC -sV -A -T5 -p$ports $1 -o nmap_scan.txt
     fi
 };
 
