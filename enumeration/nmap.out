@@ -1,0 +1,17 @@
+SHITTY AF NMAP SCANNER V 1.0
+[INFO] Scanning 67.27.159.126, please wait...
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-10-15 00:38 EDT
+Nmap scan report for 67.27.159.126
+Host is up (0.0100s latency).
+
+PORT     STATE  SERVICE     VERSION
+25/tcp   closed smtp
+80/tcp   open   http        nginx
+|_http-server-header: FP6.1.2224.89
+|_http-title: Site doesn't have a title (text/plain).
+443/tcp  open   tcpwrapped
+5060/tcp open   sip?
+8080/tcp open   http-proxy?
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 254.55 seconds

@@ -1,0 +1,15 @@
+# Nmap 7.91 scan initiated Fri Oct 15 00:38:12 2021 as: nmap -sC -sV -A -T5 -p25,80,443,5060,8080 -o nmap_scan.txt 67.27.159.126
+Nmap scan report for 67.27.159.126
+Host is up (0.0100s latency).
+
+PORT     STATE  SERVICE     VERSION
+25/tcp   closed smtp
+80/tcp   open   http        nginx
+|_http-server-header: FP6.1.2224.89
+|_http-title: Site doesn't have a title (text/plain).
+443/tcp  open   tcpwrapped
+5060/tcp open   sip?
+8080/tcp open   http-proxy?
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Oct 15 00:42:26 2021 -- 1 IP address (1 host up) scanned in 254.55 seconds
